@@ -26,7 +26,7 @@ class DeviceFactory extends Factory
             'appId' => $this->faker->uuid(),
             'language' => $this->faker->word(),
             'operatingSystem'=> $this->faker->userAgent(),
-            //
+            //TODO
         ];
     }
 }
