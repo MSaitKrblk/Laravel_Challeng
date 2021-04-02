@@ -14,6 +14,6 @@ class DeviceSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Device::factory()->count(30)->create(); 
+        \App\Models\Device::factory()->count(10000)->create(); 
     }
 }
